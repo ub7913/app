@@ -37,6 +37,7 @@ public class FrontController extends HttpServlet {
     	list.put("/memberSearch.do", new MemberSearchController());
     	list.put("/memberDelete.do", new MemberDeleteController());
     	list.put("/memberList.do", new MemberListController());
+    	list.put("/report.do", new ReportController());
     }
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
